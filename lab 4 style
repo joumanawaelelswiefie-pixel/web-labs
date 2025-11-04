@@ -1,0 +1,86 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffe4ec;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #ff6fa5;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  background-color: #fff0f5;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.3);
+  display: inline-block;
+}
+
+input,
+textarea {
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ffc1cc;
+  border-radius: 10px;
+  background-color: #fffafc;
+}
+
+button {
+  background-color: #ff9ebb;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff7da8;
+}
+
+.stars {
+  margin: 10px 0;
+}
+
+.star {
+  font-size: 25px;
+  cursor: pointer;
+  color: #ffc0cb;
+}
+
+.star.selected {
+  color: #ff6fa5;
+}
+
+.movie-list {
+  margin-top: 30px;
+}
+
+.movie-card {
+  background-color: #fff0f5;
+  border-radius: 15px;
+  padding: 15px;
+  width: 280px;
+  margin: 10px auto;
+  box-shadow: 0 3px 8px rgba(255, 182, 193, 0.4);
+}
+
+.rating-display {
+  color: #ff6fa5;
+}
+
+.empty-text {
+  color: #ff8fab;
+  font-style: italic;
+}
